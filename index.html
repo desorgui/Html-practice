@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="fontawesome/css/all.css"> -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <title>Helpjuice Test</title>
+</head>
+<body>
+  <header>
+    <div class="header-bg">
+    <div class="w-full container d-flex">
+      <nav class="c-white">
+        <ul class="d-flex">
+          <li><a href="#blog" class="c-white">Blog</a></li>
+          <li><a href="#developer" class="c-white">Developer</a></li>
+          <li><a href="#developer-blog" class="c-white">Developer Blog</a></li>
+          <li><a href="#support" class="c-white">Support</a></li>
+        </ul>
+      </nav>
+
+      <form class="search-container">
+          <select id="search-options" title="search">
+              <option value="option1">All Products</option>
+              <option value="option2">Option 2</option>
+              <option value="option3">Option 3</option>
+          </select>
+          <input type="search" id="search-input" placeholder="Search...">
+          <button type="submit" id="search-button" title="search"><i class="fas fa-search"></i></button>
+      </form>
+    </div>
+  </div>
+  </header>
+  <div class="container">
+    <div class="navigation d-flex">
+      <a href="#home">Home</a>
+      <a href="#getting-started">Getting started</a>
+    </div>
+    <div class="page-content d-flex">
+      <div class="sidebar">
+        <ul>
+          <li class="menu-item active">
+            <a href="#getting-started">Getting started <i class="fas fa-caret-right"></i></a>
+            <ul class="submenu">
+              <li class="sub-menu"><a href="#user-guides">User Guides</a></li>
+              <li class="sub-menu"><a href="#developer">Developer</a></li>
+              <li class="sub-menu"><a href="#release-notes">Release Notes</a></li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <a href="#personalization">Personalization <i class="fas fa-caret-right"></i></a>
+            <ul class="submenu">
+              <li class="sub-menu"><a href="#user-guides">Sub-menu</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="outlet d-flex">
+        <h1>Getting Started</h1>
+        <div class="card-container d-flex">
+          <div class="card d-flex">
+            <div class="icon">
+              <span class="material-symbols-outlined">
+                draft
+              </span>
+            </div>
+            <div class="card-content">
+              <h2>User Guides</h2>
+              <p>We're a new category, with lots of useful information</p>
+            </div>
+          </div>
+          <div class="card d-flex">
+            <div class="icon">
+              <span class="material-symbols-outlined">
+                code_blocks
+              </span>
+            </div>
+            <div class="card-content">
+              <h2>Developer</h2>
+              <p>We're a new category, with lots of useful information</p>
+            </div>
+          </div>
+          <div class="card d-flex">
+            <div class="icon">
+              <span class="material-symbols-outlined">
+                campaign
+              </span>
+            </div>
+            <div class="card-content">
+              <h2>Release Notes</h2>
+              <p>We're a new category, with lots of useful information</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-container d-flex container">
+      <h2>Still need Help?</h2>
+      <form id="help-form" class="d-flex">
+        <div class="form-group d-flex">
+          <label for="firstname">First Name:</label>
+          <input type="text" id="firstname" name="firstname" required>
+        </div>
+        <div class="form-group d-flex">
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName" required>
+        </div>
+        <div class="form-group d-flex">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <button class="get-started" type="submit">Get Started</button>
+        </div>
+      </form>
+      <div class="footer-list-container d-flex">
+        <div class="footer-list c-white">
+          <h3>Products</h3>
+          <ul>
+            <li>Personalization</li>
+            <li>eCommerce</li>
+            <li>Order Management</li>
+            <li>Point of Sale</li>
+          </ul>
+        </div>
+        <div class="footer-list c-white">
+          <h3>Resources</h3>
+          <ul>
+            <li>Blog</li>
+            <li>Developer Blog</li>
+            <li>Developers</li>
+            <li>Support</li>
+          </ul>
+        </div>
+        <div class="footer-list c-white">
+          <h3>Who we are</h3>
+          <ul>
+            <li>Who we are</li>
+            <li>Leadership</li>
+            <li>News/Press</li>
+            <li>Ecommerce Awards</li>
+          </ul>
+        </div>
+        <div class="footer-list c-white">
+          <h3>Employee Login</h3>
+        </div>
+      </div>
+    </div>
+     
+  </footer>  
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/959cbcf1dd.js" crossorigin="anonymous"></script>
+</body>
+</html>
